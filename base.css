@@ -1,0 +1,13 @@
+table,td{
+  width: 1050px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: ridge;
+  border-width: 10px;
+}
+
+.class1{
+  width: 1050px;
+  height: 650px;
+}

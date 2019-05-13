@@ -1,13 +1,13 @@
-table,td{
-  width: 1050px;
+table{
+  table-layout: fixed;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
   border-style: ridge;
-  border-width: 10px;
+  border-width: 1px;
 }
 
 .class1{
-  width: 1050px;
-  height: 650px;
+  width: 100%;
+  height: auto;
 }

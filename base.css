@@ -8,6 +8,6 @@ table{
 }
 
 .class1{
-  width: auto;
-  max-height: 650px;
+  width: 100%;
+  max-height: auto;
 }

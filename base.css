@@ -1,4 +1,5 @@
-table,td{
+table{
+  table-layout: fixed;
   width: 1050px;
   text-align: left;
   margin-left: auto;

@@ -1,13 +1,142 @@
-table{
-  table-layout: fixed;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: ridge;
-  border-width: 1px;
+@charset "UTF-8";
+
+html {
+  font-size: 10px;
+  line-height: 1.75em;
 }
 
-.class1{
+body {
+  background: #fffdf5;
+  color: #454545;
+  font-size: 1.4rem;
+  font-kerning: normal;
+  text-align: center;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #333333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  position: fixed;
+  top: 0px;
   width: 100%;
-  height: auto;
+  height: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#site_icon {
+  position: absolute;
+  display: flex;
+  top: -8rem;
+  width: 10rem;
+  height: 16rem;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  border: 1px solid #fffdf5;
+  background: black;
+  z-index: 1000;
+  border-radius: 0.25em;
+  opacity: 0.85;
+}
+
+#site_icon span {
+  margin-bottom: 1em;
+  padding: 0.25em 0;
+  border-bottom: 3px solid white;
+}
+
+#site_icon a {
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#wrap {
+  width: 100%;
+}
+
+#top {
+  margin-top: 10rem;
+}
+
+p.caption {
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+nav h3 {
+  font-size: 1.5rem;
+}
+
+nav li {
+  font-size: 0.8rem;
+}
+
+nav {
+  display: inline-block;  /*inline-blockにします*/
+  font-weight: bold;  /*文字を太字に*/
+}
+
+#home {
+  float: left;
+  margin-right: 0.8em;
+}
+
+#about {
+  float: left;
+  margin-right: 0.8em;
+}
+
+#portfolio {
+  float: left;
+  margin-right: 0.8em;
+}
+
+#contact {
+  float: left;
+}
+
+#portfolio_matomari {
+  text-align: right;
+}
+
+#contact_email {
+  text-align: right;
+}
+
+footer p{
+  clear: left;
+}
+
+section #top {
+  margin-left;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain;
+}
+
+section {
+  align-items: center;
 }

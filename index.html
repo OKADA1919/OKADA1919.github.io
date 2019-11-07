@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html lang="ja">
-<!--文書に関する機械可読な情報 (メタデータ)、たとえば題名、スクリプト、スタイルシートなどを含みます。-->
 <head>
-  <!--他のメタ関連要素 (<base>, <link>, <script>, <style>, <title>) で表すことができない任意のメタデータを提示します。-->
-  <!--charset属性は、ページで使用している文字エンコーディングを宣言します。-->
   <meta charset="UTF-8">
-  <!--viewport は、ビューポートの初期サイズに関する助言を与えます。モバイル端末のみで使用されます。-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--要素に名前を付与することでメタデータの種類を示し、内容をcontent属性で表します。
-  author属性は文書の著作者の名前を記述するために指定します。
-  description属性は文書の概要を記述するために指定します。検索エンジンのクローラーに読み取られ、検索結果などにも表示される情報です。１つの文書に1つだけ記述できます。-->
-  <meta name="author" content="Okada Keisuke">
-  <meta name="description" content="The official home page of job seeking person, Okada Keisuke">
-  <!--プラグマディレクティブを定義します。-->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!--ブラウザーのタイトルバーやページのタブに表示される文書の題名を定義します。-->
-  <title>OKADA.net</title>
-  <!--Webページと他のドキュメントとの関連を記述するには、linkタグを使用します。-->
-  <link rel="stylesheet" type="text/css" href="base.css">
+  <title>Document</title>
+  <!--　google fontsのwebフォントへのリンク　-->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <!--　stylesheetファイルへのリンク　-->
+  <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-  <table>
-    <tbody>
-      <tr align="center">
-      </tr>
-      <tr align="center">
-        <td>
-          <img class="class1" src="okadawave2.gif" alt="" title="I'm Okada!">
-        </td>
-      </tr>
-      <tr align="center">
-        <td>
-          Welcome to OKADA.net! The official home page of job seeking person, Okada Keisuke
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <header>
+    <div id="site_icon">
+      <span>
+        <a href="https://okada1919.github.io">okada1919.net</a>
+      </span>
+    </div>
+  </header>
+
+  <div id="wrap">
+    <div class="content">
+      <section id="top">
+        <img src="syuukatu.png" alt="ただいま、求職中！">
+      </section>
+      <section id="profile">
+        <img class="icon" src="" alt="どうも僕です！">
+        <h4>岡田　恵介</h4>
+        <p class="caption">ウェブを作る仕事を志望してます</p>
+      </section>
+    </div>
+    <nav>
+      <section id="home">
+        <h3><a href="index.html">Home</a></h3>
+      </section>
+      <section id="about">
+        <h3><a href="about.html">About</a></h3>
+      </section>
+      <section id="portfolio">
+        <h3>Portfolio</h3>
+        <ul id="portfolio_matomari">
+          <li><a href="portfolio_01.html">01</a></li>
+          <li><a href="portfolio_02.html">02</a></li>
+          <li><a href="portfolio_03.html">03</a></li>
+          <li><a href="portfolio_04.html">04</a></li>
+          <li><a href="portfolio_05.html">05</a></li>
+          <li><a href="portfolio_06.html">06</a></li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h3>Contact</h3>
+        <ul id="contact_email">
+          <li><a href="mailto:okdkisk@gmail.com">e-mail</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+
+  <footer>
+    <p>©️ 2019 OKADA.net</p>
+  </footer>
+
 </body>
 </html>

@@ -3,6 +3,7 @@
 html {
   font-size: 10px;
   line-height: 1.75em;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
@@ -131,7 +132,7 @@ section #top {
   max-width: 1000px;
 }
 
-img {
+#top img {
   width: 100% !important;
   height: auto !important;
   object-fit: contain;
@@ -139,4 +140,13 @@ img {
 
 section {
   align-items: center;
+}
+
+.icon {
+  border-radius: 50%;
+  border: 1px solid rgba(150,150,50,0.1);
+}
+
+#profile img {
+  width: 5rem;
 }

@@ -74,6 +74,10 @@ header {
   margin-top: 10rem;
 }
 
+#about_top {
+  margin-top: 10rem;
+}
+
 p.caption {
   font-size: 1.2rem;
 }
@@ -150,4 +154,13 @@ section {
 
 #profile img {
   width: 5rem;
+}
+
+#about_top img {
+  width: 80% !important;
+  height: auto !important;
+  object-fit: contain;
+
+#me {
+  text-align: center;
 }

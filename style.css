@@ -68,18 +68,11 @@ header {
 
 #wrap {
   width: 100%;
-}
-
-#top {
   margin-top: 10rem;
 }
 
-#about_top {
-  margin-top: 10rem;
-}
-
-p.caption {
-  font-size: 1.2rem;
+p .caption {
+  font-size: 1.5rem;
 }
 
 ul {
@@ -130,17 +123,15 @@ footer p{
   clear: left;
 }
 
-section #top {
+.top {
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
 }
 
-#top img {
+.top img {
   width: 80% !important;
   height: auto !important;
-  object-fit: contain;
-  margin-bottom: -3rem;
 }
 
 section {
@@ -148,19 +139,23 @@ section {
 }
 
 .icon {
+  margin-top: -3rem;
   border-radius: 50%;
   border: 1px solid rgba(150,150,50,0.1);
 }
 
-#profile img {
+.profile img {
   width: 5rem;
 }
 
-#about_top img {
-  width: 80% !important;
-  height: auto !important;
-  object-fit: contain;
-
-#me {
+.me {
+  margin-bottom: 1rem;
   text-align: center;
+}
+
+.me p {
+  width: 80%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }

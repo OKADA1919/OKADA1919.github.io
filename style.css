@@ -9,7 +9,6 @@ html {
 body {
   background: #fffdf5;
   color: #454545;
-  font-size: 1.4rem;
   font-kerning: normal;
   text-align: center;
 }
@@ -63,6 +62,7 @@ header {
 
 #site_icon a {
   color: white;
+  font-size: 1.35rem;
   font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -71,8 +71,18 @@ header {
   margin-top: 10rem;
 }
 
-p .caption {
+.profile h4 {
   font-size: 1.5rem;
+  margin-bottom: -1rem;
+}
+
+.me h4 {
+  font-size: 1.5rem;
+  margin-bottom: -1rem;
+}
+
+.caption {
+  font-size: 1.2rem;
 }
 
 ul {
@@ -126,12 +136,12 @@ footer p{
 .top {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1000px;
 }
 
 .top img {
-  width: 80% !important;
+  width: 100% !important;
   height: auto !important;
+  max-width: 1000px;
 }
 
 section {
@@ -154,7 +164,6 @@ section {
 }
 
 .me p {
-  width: 80%;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;

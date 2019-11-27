@@ -74,13 +74,13 @@ header {
 .profile h4 {
   font-size: 2rem;
   margin-bottom: -1rem;
-      padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .me h4 {
   font-size: 2rem;
   margin-bottom: -1rem;
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .caption {
@@ -176,4 +176,51 @@ section {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+}
+
+#container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 1em;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#item_1 img {
+  background-color: #FF0000;
+  max-width: 100%;
+  height: auto;
+}
+
+#item_2 img {
+  background-color: #FFFF00;
+  max-width: 100%;
+  height: auto;
+}
+
+#item_3 img {
+  background-color: #00FF00;
+  max-width: 100%;
+  height: auto;
+}
+
+#item_4 img {
+  background-color: #00FFFF;
+  max-width: 100%;
+  height: auto;
+}
+
+#item_5 img {
+  background-color: #0000FF;
+  max-width: 100%;
+  height: auto;
+}
+
+#item_6 img {
+  background-color: #FF00FF;
+  max-width: 100%;
+  height: auto;
 }
